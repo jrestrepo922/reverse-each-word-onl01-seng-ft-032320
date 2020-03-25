@@ -3,7 +3,7 @@ string = "Hello there, and how are you?"
 def reverse_each_word(string)
   intermidiate_array = string.split(" ")
   
-  intermidiate_array.collect do |word|
+  final_array = [intermidiate_array.collect do |word|
     word.reverse
   end
   intermidiate_array.join(" ")
