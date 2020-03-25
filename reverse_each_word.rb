@@ -4,7 +4,7 @@ def reverse_each_word(string)
   intermidiate_array.collect do |word|
     word.reverse
   end
-  new_array.join(" ")
+  intermidiate_array.join(" ")
 end 
 
 
