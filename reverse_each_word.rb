@@ -1,3 +1,5 @@
+string = 
+
 def reverse_each_word(string)
   intermidiate_array = string.split(" ")
   
